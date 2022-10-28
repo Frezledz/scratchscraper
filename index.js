@@ -3,7 +3,7 @@ const a = ()=>{
 }
 
 const c = ()=>{
-    console.log("s");
+    console.log("a");
 }
 module.exports = {
     a:a,
