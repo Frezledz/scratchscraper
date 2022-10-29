@@ -9,3 +9,5 @@ class _Getdatas {
     }
 }
 const __Getdatas = new _Getdatas();
+
+exports.Getdatas = __Getdatas;
