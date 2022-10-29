@@ -1,4 +1,5 @@
-const tokens = require("./login");
+
+const tokens = require("./login").Tokens; 
 const https = require("https");
 
 class _Getdatas {

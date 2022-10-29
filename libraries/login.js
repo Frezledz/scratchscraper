@@ -1,6 +1,6 @@
 const https = require("https");
-let tokens = {sessionsid:"",token:""};
-const login = (name,pass)=>{
+let tokens = {sessionsid:"",token:"",isloggedin:0};
+const _login = (name,pass)=>{
  return new Promise((resolve) =>{
    const reqoptions = {
        hostname: 'scratch.mit.edu',
@@ -45,4 +45,6 @@ const login = (name,pass)=>{
  })
  
 }
-exports.tokens = tokens;
+
+exports.login = _login;
+exports.Tokens = tokens;
