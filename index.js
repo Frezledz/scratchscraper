@@ -1,11 +1,8 @@
-const a = ()=>{
-    console.log("s");
-}
+const Getdatas = require("./libraries/api");
 
-const c = ()=>{
-    console.log("a");
+const scratchscraper = new class{
+    constructor(){
+        this.Getdatas = Getdatas;
+    }
 }
-module.exports = {
-    a:a,
-    b:c
-};
+module.exports = scratchscraper;
