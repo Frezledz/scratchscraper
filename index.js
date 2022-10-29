@@ -1,4 +1,4 @@
-const Getdatas = require("./libraries/api");
+const _Getdatas = require("./libraries/api");
 
 
-module.exports ={getdatas:Getdatas};
+module.exports ={Getdatas:_Getdatas};
